@@ -1,0 +1,52 @@
+//main: style.less
+
+.modal-content {
+    padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    width: 820px;
+    min-height: 501px;
+    border-radius: 8px;
+    background-color: white;
+    @media (min-width: 768px) and (max-width: 1439px) {
+        width: 688px;
+    }
+    @media (max-width: 767px)  {
+        flex-direction: column;
+        width: 290px;
+        min-height: 945px;
+    }
+}
+
+.modal-content__container {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) and (max-width: 1439px) {
+        width: 200px;
+    }
+}
+
+.modal-content__article {
+    font-weight: 700;
+    .set-font;
+    margin-top: 20px;
+    @media (min-width: 768px) and (max-width: 1439px) {
+        margin-top: 40px;
+    }
+}
+
+.modal-contane__paragraph {
+    .set-font(12px, 18px);
+    margin-top: 10px;
+}
+
+.modal-content__picture {
+    @media (min-width: 768px) and (max-width: 1439px) {
+        width: 200px;
+        height: 200px;
+    }
+}

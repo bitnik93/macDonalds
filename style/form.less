@@ -1,0 +1,56 @@
+//main: style.less
+
+.form {
+    max-width: 410px;
+    min-height: 322px;
+}
+
+.form__drinks-container {
+    margin-top: 5px;
+}
+
+.form__wrapper {
+        border-bottom: 2px solid #FFC300;
+        border-top: 2px solid #FFC300;
+        @media (max-width: 767px)  {
+            margin-top:20px;
+            }
+}
+
+
+.form__article {
+    font-weight: 700;
+    .set-font;
+}
+.form__submit-button {
+    min-width: 197px;
+    border: none;
+    @media (max-width: 767px)  {
+        margin-top:20px;
+        }
+}
+
+.form__submit-text {
+    font-weight: 400;
+    .set-font;
+}
+
+.form__buttons-container {
+    margin-top: 10px;
+    @media (max-width: 767px)  {
+        display: flex;
+        flex-direction: column;
+        }
+}
+
+.form__price-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__price {
+    .set-font(30px, 34px);
+    font-family: 'Insaniburger';
+    color: #FFC300;
+}

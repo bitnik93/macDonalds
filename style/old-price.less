@@ -1,0 +1,26 @@
+//main: style.less
+
+.old-price {
+    position: relative;
+    color: #D3D3D3;
+    font-weight: 500;
+    .set-font;
+    @media (max-width: 767px) {
+        .set-font(24px, 27px);
+}
+}
+
+.old-price:before {
+    content: "";
+	border-bottom: 5px solid #FFC300;
+	position: absolute;
+	width: 49%;
+	height: 40%;
+	transform: rotate(-11deg);
+    @media (max-width: 767px) {
+        .set-font(24px, 27px);
+        width: 30%;
+        height: 39%;
+
+}
+}

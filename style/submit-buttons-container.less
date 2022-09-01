@@ -1,0 +1,29 @@
+//main: style.less
+
+.submit-buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-buttons-container__button {
+    border: none;
+    background-color: transparent;
+}
+
+.form__counter {
+    font-family: 400;
+    .set-font;
+}
+
+.form__buttons-container__wrapper {
+    min-width: 120px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 767px)  {
+        min-width: 95px;
+        max-width: 110px;
+        }
+}

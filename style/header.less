@@ -1,0 +1,40 @@
+//main: style.less
+
+.header {
+    padding: 0 80px;
+    width: 100%;
+    background-color: #060A15;
+    box-sizing: border-box;
+    @media (min-width: @tablet-width) and (max-width: 1439px) {
+        padding: 0 30px;
+    }
+    @media (max-width: 767px) {
+        display: none;
+        }
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu__burger {
+    @media (min-width: @tablet-width) {
+        display: none;
+    }
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    &::before {
+        position: absolute;
+        top: 1px;
+        left: -33px;
+        content: '';
+        width: 30px;
+        height:3px;
+        background-color: rgb(0, 0, 0);
+        box-shadow:  0 5px rgb(0, 0, 0), 0 10px black;
+    }
+}
+

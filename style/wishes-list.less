@@ -1,0 +1,75 @@
+//main: style.less
+
+.wishes-list {
+    width: 100%;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (max-width: 767px)  {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.wishes-list__item {
+    min-width: 200px;
+    grid-column: 1 / 2;
+    @media (min-width: 768px) and (max-width: 1439px) {
+        min-width: 100px;
+    }
+    @media (max-width: 767px)  {
+    min-height: 40px;
+    }
+}
+
+.wishes-list__item:nth-child(6) {
+grid-column: 2 / 3;
+grid-row: 1/ 2;
+
+}
+.wishes-list__item:nth-child(7) {
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+}
+.wishes-list__item:nth-child(8) {
+grid-column: 2 / 3;
+grid-row: 3 / 4;
+}
+.wishes-list__input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.wishes-list__label {
+    font-weight: 400;
+    position: relative;
+    .set-font(12px, 14px);
+    padding-left: 10px;
+}
+
+.wishes-list__label:after {
+    position: absolute;
+    content: '';
+    top: 20px;
+    left: 20px;
+    width: 170px;
+    border-bottom: 2px solid #E9E9E9;
+}
+
+.wishes-list__checkbox {
+    margin-left: -26px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+}
+
+.wishes-list__input:checked + .wishes-list__checkbox {
+
+    background-image: url('/img/icon-check.svg');
+    background-repeat: no-repeat;
+    background-color: #FFC300;
+}

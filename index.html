@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
                     <li class="site-list__item"><a class="site-list__link" href="#">Сотрудничество</a></li>
                 </ul>
                 <div class="main-nav__container">
-                    <svg width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)" fill="#FFC300"><path d="M12.5 2.083a7.286 7.286 0 0 0-7.292 7.292c0 5.469 7.292 13.542 7.292 13.542s7.292-8.073 7.292-13.542A7.286 7.286 0 0 0 12.5 2.083ZM7.292 9.375A5.21 5.21 0 0 1 12.5 4.167a5.21 5.21 0 0 1 5.209 5.208c0 3-3 7.49-5.209 10.292-2.166-2.782-5.208-7.323-5.208-10.292Z"/><path d="M12.5 11.98a2.604 2.604 0 1 0 0-5.21 2.604 2.604 0 0 0 0 5.21Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h25v25H0z"/></clipPath></defs></svg>
+                    <svg width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)" fill="#FFC300"><path d="M12.5 2.083a7.286 7.286 0 0 0-7.292 7.292c0 5.469 7.292 13.542 7.292 13.542s7.292-8.073 7.292-13.542A7.286 7.286 0 0 0 12.5 2.083ZM7.292 9.375A5.21 5.21 0 0 1 12.5 4.167a5.21 5.21 0 0 1 5.209 5.208c0 3-3 7.49-5.209 10.292-2.166-2.782-5.208-7.323-5.208-10.292Z"/><path d="M12.5 11.98a2.604 2.604 0 1 0 0-5.21 2.604 2.604 0 0 0 0 5.21Z"/></g><defs><clipPath id="geo-location"><path fill="#fff" d="M0 0h25v25H0z"/></clipPath></defs></svg>
                     <p class="main-nav__city list-reset">Москва</p>
                 </div>
             </nav>
@@ -28,7 +28,11 @@
             <section class="main-section">
                 <header class="main-header main__header">
                     <nav class="header-menu main-header__nav">
-                        <img class="main-header__logo" src="./img/MacDonalds.webp" alt="MacDonalds-logo">
+                        <picture>
+                            <source media="(min-width: 1440px)" srcset="./img/MacDonalds.png 1x, ./img/MacDonalds@2x.png 2x">
+                            <source media="(min-width: 768px)" srcset="./img/MacDonalds-tablet.png 1x, ./img/MacDonalds-tablet@2x.png 2x">
+                            <img class="main-header__logo" width="69" height="60" src="./img/MacDonalds.png" srcset="./img/MacDonalds@2x.png 2x" alt="MacDonalds-logo">
+                        </picture>
                         <ul class="menu-list main-header__list list-reset">
                             <li class="menu-list__item"><a class="menu-list__page" href="#">Меню</a></li>
                             <li class="menu-list__item"><a class="menu-list__page" href="#">Мы на карте</a></li>
@@ -37,7 +41,7 @@
                             <li class="menu-list__item"><a class="menu-list__page" href="#">Качество</a></li>
                         </ul>
                         <button class="header-menu__burger"></button>
-                        <a class="link menu-list__link" href="#"><svg width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M16.198 13.542c.781 0 1.468-.427 1.823-1.073l3.729-6.76a1.038 1.038 0 0 0-.906-1.542H5.427l-.98-2.084H1.043v2.084h2.083l3.75 7.906-1.406 2.542c-.76 1.395.24 3.093 1.822 3.093h12.5v-2.083h-12.5l1.146-2.083h7.76ZM6.416 6.25h12.657l-2.875 5.208H8.885L6.417 6.25Zm.875 12.5a2.08 2.08 0 0 0-2.072 2.083 2.08 2.08 0 0 0 2.072 2.084 2.09 2.09 0 0 0 2.084-2.084 2.09 2.09 0 0 0-2.083-2.083Zm10.417 0a2.08 2.08 0 0 0-2.073 2.083 2.08 2.08 0 0 0 2.073 2.084 2.09 2.09 0 0 0 2.084-2.084 2.09 2.09 0 0 0-2.084-2.083Z" fill="#000"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h25v25H0z"/></clipPath></defs></svg>Корзина</a>
+                        <a class="link menu-list__link" href="#"><svg width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M16.198 13.542c.781 0 1.468-.427 1.823-1.073l3.729-6.76a1.038 1.038 0 0 0-.906-1.542H5.427l-.98-2.084H1.043v2.084h2.083l3.75 7.906-1.406 2.542c-.76 1.395.24 3.093 1.822 3.093h12.5v-2.083h-12.5l1.146-2.083h7.76ZM6.416 6.25h12.657l-2.875 5.208H8.885L6.417 6.25Zm.875 12.5a2.08 2.08 0 0 0-2.072 2.083 2.08 2.08 0 0 0 2.072 2.084 2.09 2.09 0 0 0 2.084-2.084 2.09 2.09 0 0 0-2.083-2.083Zm10.417 0a2.08 2.08 0 0 0-2.073 2.083 2.08 2.08 0 0 0 2.073 2.084 2.09 2.09 0 0 0 2.084-2.084 2.09 2.09 0 0 0-2.084-2.083Z" fill="#000"/></g><defs><clipPath id="basket"><path fill="#fff" d="M0 0h25v25H0z"/></clipPath></defs></svg>Корзина</a>
                     </nav>
                 </header>
                 <div class="main-section__wrapper">
@@ -85,7 +89,7 @@
                         <li class="list-of-benefits__item">
                             <div class="list-of-benefits__wrapper">
                                 <picture>
-                                    <source media="(min-width:1440px)" srcset="./img/Natural.svg">
+                                    <source media="(min-width:1440px)" srcset="./img/Natural.svg 1x">
                                     <source media="(min-width:768px)" srcset="./img/natural-tablet.svg">
                                         <img width="80" height="80" src="./img/natural-phone.svg" alt="натурально">                                </picture>
                                 <h2 class="list-of-benefits__article list-reset">Натуральность</h2>
@@ -126,13 +130,13 @@
                 <div class="combo__container">
                     <div class="combo__background">
                         <picture>
-                            <source media="(min-width:768px)" srcset="./img/mac-background-2-tablet.png">
-                            <img class="combo__picture" src="./img/mac-background-2.png" alt="mac-background">
+                            <source media="(min-width:768px)" srcset="./img/mac-background-2-tablet.png 1x, ./img/mac-background-2-tablet@2x.png">
+                            <img class="combo__picture" src="./img/mac-background-2.png" srcset="./img/mac-background-2@2x.png 2x" alt="mac-background">
                         </picture>
                         <picture>
-                            <source media="(min-width:1440px)" srcset="./img/mac-combo.png">
-                            <source media="(min-width:768px)" srcset="./img/mac-combo-tablet .png">
-                            <img class="combo__mac-combo" width="290" height="290" class="combo__picture" src="./img/mac-combo-phone.png" alt="">
+                            <source media="(min-width:1440px)" srcset="./img/mac-combo.png 1x, ./img/mac-combo@2x.png 2x">
+                            <source media="(min-width:768px)" srcset="./img/mac-combo-tablet.png 1x, ./img/mac-combo-tablet@2x.png 2x">
+                            <img class="combo__mac-combo" width="290" height="290" src="./img/mac-combo-phone.png" srcset="./img/mac-combo-phone@2x.png 2x" alt="">
                         </picture>
                     </div>
                     <div class="combo__switch-container">
@@ -145,7 +149,7 @@
                     </div>
                 </div>
             </section>
-            <aticle class="add-section">
+            <article class="add-section">
                 <div class="add-section__container">
                     <h2 class="add-section__article list-reset">Дополните свой БигМак</h2>
                 </div>
@@ -153,9 +157,9 @@
                     <ul class="add-section__list add-list list-reset">
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/latte.png">
-                                <source media="(min-width: 768px)" srcset="/img/latte-tablet.png">
-                                <img class="add-list__picture" src="/img/latte-phone.png" width="225" height="225" alt="Латте">
+                                <source media="(min-width: 1440px)" srcset="/img/latte.png 1x, /img/latte@2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="/img/latte-tablet.png 1x, /img/latte-tablet.png 2x">
+                                <img class="add-list__picture" src="/img/latte-phone.png" srcset="/img/latte-phone@2x.png 2x" width="225" height="225" alt="Латте">
                             </picture>
                             <h3 class="add-list__article list-reset">Хорошая пара с Лате</h3>
                             <p class="add-list__text list-reset">Два Латте 0,3 по специальной цене!</p>
@@ -164,8 +168,8 @@
                         </li>
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/capuccino.png">
-                                <img class="add-list__picture" src="/img/capuccino-phone.png"  width="225" height="225" alt="Капучино">
+                                <source media="(min-width: 1440px)" srcset="/img/capuccino.png 1x, /img/capuccino@2x.png 2x">
+                                <img class="add-list__picture" src="/img/capuccino-phone.png" srcset="/img/capuccino-phone@2x.png 2x"  width="225" height="225" alt="Капучино">
                             </picture>
                             <h3 class="add-list__article list-reset">Айриш Капучино</h3>
                             <p class="add-list__text list-reset">Классический капучино с воздушной молочной пенкой и сиропом со вкусом сливочного ликера... </p>
@@ -174,9 +178,9 @@
                         </li>
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/americano.png">
-                                <source media="(min-width: 768px)" srcset="/img/americano-tablet.png">
-                                <img class="add-list__picture" src="/img/americano-phone.png"  width="225" height="225" alt=" Американо">
+                                <source media="(min-width: 1440px)" srcset="/img/americano.png 1x, /img/americano@2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="/img/americano-tablet.png 1x, /img/americano-tablet@2x.png 2x">
+                                <img class="add-list__picture" src="/img/americano-phone.png" srcset="/img/americano-phone@2x.png 2x"  width="225" height="225" alt=" Американо">
                             </picture>
                             <h3 class="add-list__article list-reset">Американо Большой</h3>
                             <p class="add-list__text list-reset">Кофе черный.</p>
@@ -185,9 +189,9 @@
                         </li>
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/punsh.png">
-                                <source media="(min-width: 768px)" srcset="/img/punsh-tablet.png">
-                                <img class="add-list__picture" src="/img/punsh-phone.png"  width="225" height="225" alt="Пунш">
+                                <source media="(min-width: 1440px)" srcset="/img/punsh.png 1x, /img/punsh@2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="/img/punsh-tablet.png 1x, /img/punsh-tablet@2x.png 2x">
+                                <img class="add-list__picture" src="/img/punsh-phone.png" srcset="/img/punsh-phone@2x.png 2x"  width="225" height="225" alt="Пунш">
                             </picture>
                             <h3 class="add-list__article list-reset">Ягодный Пунш</h3>
                             <p class="add-list__text list-reset">Встречайте — снова в меню! Горячий напиток на основе натурального пюре из ягод малины и черной...</p>
@@ -196,9 +200,9 @@
                         </li>
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/cola.png">
-                                <source media="(min-width: 768px)" srcset="/img/cola-tablet.png">
-                                <img class="add-list__picture" src="/img/cola-phone.png"  width="225" height="225" alt="Кола">
+                                <source media="(min-width: 1440px)" srcset="/img/cola.png 1x, /img/cola@2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="/img/cola-tablet.png 1x, /img/cola-tablet@2x.png 2x">
+                                <img class="add-list__picture" src="/img/cola-phone.png" srcset="/img/cola-phone@2x.png 2x"  width="225" height="225" alt="Кола">
                             </picture>
                             <h3 class="add-list__article list-reset">Кока-Кола средняя
                             </h3>
@@ -208,9 +212,9 @@
                         </li>
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/onion-sauce.png">
-                                <source media="(min-width: 768px)" srcset="/img/onion-sauce-tablet.png">
-                                <img class="add-list__picture" src="/img/onion-sauce-phone.png"  width="225" height="225" alt="Чесночный соус">
+                                <source media="(min-width: 1440px)" srcset="/img/onion-sauce.png 1x, /img/onion-sauce@2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="/img/onion-sauce-tablet.png 1x, /img/onion-sauce-tablet@2x.png 2x">
+                                <img class="add-list__picture" src="/img/onion-sauce-phone.png" srcset="/img/onion-sauce-phone@2x.png 2x" width="225" height="225" alt="Чесночный соус">
                             </picture>
                             <h3 class="add-list__article list-reset">Соус Чесночный
                             </h3>
@@ -220,9 +224,9 @@
                         </li>
                         <li class="add-list__item">
                             <picture>
-                                <source media="(min-width: 1440px)" srcset="/img/cheese-sauce.png">
-                                <source media="(min-width: 768px)" srcset="/img/cheese-sauce-tablet.png">
-                                <img class="add-list__picture" src="/img/cheese-sauce-phone.png"  width="225" height="225" alt="Сырный соус">
+                                <source media="(min-width: 1440px)" srcset="/img/cheese-sauce.png 1x, /img/cheese-sauce@2x.png 2x">
+                                <source media="(min-width: 768px)" srcset="/img/cheese-sauce-tablet.png 1x, /img/cheese-sauce-tablet@2x.png 2x">
+                                <img class="add-list__picture" src="/img/cheese-sauce-phone.png" srcset="/img/cheese-sauce-phone@2x.png 2x"  width="225" height="225" alt="Сырный соус">
                             </picture>
                             <h3 class="add-list__article list-reset">Соус Сырный</h3>
                             <p class="add-list__text list-reset">Соус со вкусом сыра</p>
@@ -230,7 +234,7 @@
                                 <svg class="buy-button__plus" width="22" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.13 9.363h-7.7v-7.7a1.283 1.283 0 1 0-2.567 0v7.7h-7.7a1.283 1.283 0 1 0 0 2.567h7.7v7.7a1.283 1.283 0 1 0 2.567 0v-7.7h7.7a1.283 1.283 0 1 0 0-2.567Z" fill="#FFC300"/></svg></button>
                         </li>
                         <li class="add-list__item">
-                            <img class="add-list__picture" src="/img/teriyacee-sauce.webp"  width="225" height="225" alt="Терияки соус">
+                            <img class="add-list__picture" src="/img/teriyacee-sauce.png" srcset="/img/teriyacee-sauce@2x.png 2x"  width="225" height="225" alt="Терияки соус">
                             <h3 class="add-list__article list-reset">Соус Терияки</h3>
                             <p class="add-list__text list-reset"></p>
                             <button class="buy-button add-list__button">30<svg class="add-list__ruble" width="15" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.35 12.071c3.325 0 5.65-2.389 5.65-5.823C15 2.814 12.675.5 9.35.5H2.969A.476.476 0 0 0 2.5.982v8.302H.469A.476.476 0 0 0 0 9.766v1.823c0 .266.21.482.469.482H2.5v1.286H.469A.476.476 0 0 0 0 13.84v1.607c0 .267.21.483.469.483H2.5v2.089c0 .266.21.482.469.482h2.287a.476.476 0 0 0 .469-.482v-2.09h6.306a.476.476 0 0 0 .469-.482V13.84a.476.476 0 0 0-.469-.482H5.725v-1.286H9.35ZM5.725 3.262H8.8c1.825 0 2.925 1.17 2.925 2.986 0 1.842-1.1 3.036-2.975 3.036H5.725V3.262Z" fill="#FFC300"/></svg>
@@ -242,7 +246,7 @@
         </main>
         <footer class="footer">
             <div class="footer__wrapper">
-                <div class="footer__cookies"><img src="./img/MacDonalds.webp" alt="MacDonalds-logo">
+                <div class="footer__cookies"><img src="./img/MacDonalds.png" alt="MacDonalds-logo">
                     <p class="footer__cookies-text list-reset">Мы используем cookies, чтобы вам было удобнее пользоваться сайтом. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</p>
                 </div>
                 <div class="about-us footer__about ">
@@ -286,7 +290,7 @@
             </div>
             <div class=" footer__copyright copyright">
                 <div class="copyright__wrapper">
-                    <p class="copyright__contact list-reset">Контакт-центр <a class="copyright__tel" href="tel:+8 (495) 190 99 99">8 (495) 190 99 99</a>
+                    <p class="copyright__contact list-reset">Контакт-центр <a class="copyright__tel" href="tel:+8(495)1909999">8 (495) 190 99 99</a>
                     </p>
                     <p class="copyright__info list-reset">Правовая информация</p>
                 </div>
@@ -298,9 +302,9 @@
                 <div class="modal-content__container">
                     <div class="modal-contant__wrapper">
                         <picture>
-                            <source media="(min-width:1440px)" srcset="./img/popup-burger-desktop.png">
-                            <source media="(min-width:768px)" srcset="./img/popup-burger-tablet.png">
-                            <img class="modal-content__picture" width="250" height="250" src="./img/popup-burger-desktop.png" alt="">
+                            <source media="(min-width:1440px)" srcset="./img/popup-burger-desktop.png 1x, ./img/popup-burger-desktop@2x.png 2x">
+                            <source media="(min-width:768px)" srcset="./img/popup-burger-tablet.png 1x, ./img/popup-burger-tablet@2x.png 2x">
+                            <img class="modal-content__picture" width="250" height="250" src="./img/popup-burger-desktop.png" srcset="./img/popup-burger-desktop@2x.png 2x" alt="">
                         </picture>
                     </div>
                 <h3 class="modal-content__article list-reset">Биг Мак </h3>
@@ -401,9 +405,9 @@
                         </div>
                         <div class="form__buttons-container submit-buttons-container">
                             <div class="form__buttons-container__wrapper">
-                                <button class="submit-buttons-container__button form__minus-button" type="button" alt="minus"><img width="30" height="30" src="./img/minus.svg" alt=""></button>
+                                <button class="submit-buttons-container__button form__minus-button" type="button"><img width="30" height="30" src="./img/minus.svg" alt=""></button>
                                 <span class="form__counter">1</span>
-                                <button class="submit-buttons-container__button form__plus-button" type="button" alt="plus"><img width="30" height="30" src="./img/plus.png" alt="plus"></button>
+                                <button class="submit-buttons-container__button form__plus-button" type="button"><img width="30" height="30" src="./img/plus.svg" alt="plus"></button>
                             </div>
                             <button class="form__submit-button link" type="submit" form="form"><span class="form__submit-text">Оформить заказ</span></button>
                         </div>

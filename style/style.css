@@ -2,28 +2,28 @@
   font-family: "Ubuntu";
   font-weight: 400;
   font-style: normal;
-  src: url('/fonts/ubuntu.woff2') format('woff2'), url('/fonts/ubuntu.woff') format('woff');
+  src: url('../fonts/ubuntu.woff2') format('woff2'), url('../fonts/ubuntu.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: "Ubuntu";
   font-weight: 500;
   font-style: normal;
-  src: url('/fonts/ubuntu-medium.woff2') format('woff2'), url('/fonts/ubuntu-medium.woff') format('woff');
+  src: url('../fonts/ubuntu-medium.woff2') format('woff2'), url('../fonts/ubuntu-medium.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: "Ubuntu";
   font-weight: 700;
   font-style: normal;
-  src: url('/fonts/ubuntu-bold.woff2') format('woff2'), url('/fonts/ubuntu-bold.woff') format('woff');
+  src: url('../fonts/ubuntu-bold.woff2') format('woff2'), url('../fonts/ubuntu-bold.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: "Insaniburger";
   font-weight: 400;
   font-style: normal;
-  src: url('/fonts/Insaniburger.woff2') format('woff2'), url('/fonts/Insaniburger.woff') format('woff');
+  src: url('../fonts/Insaniburger.woff2') format('woff2'), url('../fonts/Insaniburger.woff') format('woff');
   font-display: swap;
 }
 .list-reset {
@@ -1411,7 +1411,7 @@ body {
   border-radius: 2px;
 }
 .wishes-list__input:checked + .wishes-list__checkbox {
-  background-image: url('/img/icon-check.svg');
+  background-image: url('img/icon-check.svg');
   background-repeat: no-repeat;
   background-color: #FFC300;
 }
@@ -1505,7 +1505,7 @@ body {
   border-radius: 50%;
 }
 .drinks-list__input:checked + .drinks-list__radio {
-  background-image: url('/img/dot.svg');
+  background-image: url('img/dot.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: #FFC300;

@@ -94,6 +94,9 @@ body {
 .main-nav__link:hover {
   color: #D3D3D3;
 }
+.main-nav__svg:hover {
+  color: #D3D3D3;
+}
 .header {
   padding: 0 80px;
   width: 100%;
@@ -448,6 +451,9 @@ body {
 .buy-section__new-price {
   font-family: 'Insaniburger';
   font-weight: 500;
+}
+.buy-section__svg:hover {
+  color: white;
 }
 .buy-link {
   max-width: 142px;
@@ -1183,6 +1189,12 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #FFC300;
+}
+.subscribe__link {
+  color: #E9E9E9;
+}
+.subscribe__link:hover {
+  color: white;
 }
 .about-us__list {
   display: flex;

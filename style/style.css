@@ -1308,6 +1308,9 @@ body {
     display: flex;
   }
 }
+.copyright__tel {
+  color: #FFC300;
+}
 @media (max-width: 767px) {
   .copyright__tel {
     margin-left: 2px;

@@ -1311,6 +1311,9 @@ body {
 .copyright__tel {
   color: #FFC300;
 }
+.copyright__tel:hover {
+  color: white;
+}
 @media (max-width: 767px) {
   .copyright__tel {
     margin-left: 2px;

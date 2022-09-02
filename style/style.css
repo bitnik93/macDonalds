@@ -94,9 +94,6 @@ body {
 .main-nav__link:hover {
   color: #D3D3D3;
 }
-.main-nav__svg:hover {
-  color: #D3D3D3;
-}
 .header {
   padding: 0 80px;
   width: 100%;
@@ -169,6 +166,9 @@ body {
   .header-menu .menu-list__link {
     display: none;
   }
+}
+.menu-list__svg:hover {
+  color: green;
 }
 .main {
   width: 100%;

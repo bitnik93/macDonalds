@@ -406,7 +406,7 @@ body {
 }
 @media (min-width: 321px) and (max-width: 767px) {
   .main-section__milk-shake {
-    right: -18px;
+    right: 0px;
     width: 361px;
     height: 320px;
   }

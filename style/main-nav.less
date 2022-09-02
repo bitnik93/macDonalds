@@ -11,14 +11,19 @@
     align-items: center;
 }
 
-.main-nav__city {
-    .set-font;
-    color: #FFFFFF;
-}
-
 .main-nav__logo {
     @media (max-width: 767px) {
         width: 50px;
         height: 45px;
+    }
+}
+
+.main-nav__link {
+    .set-font;
+    color: #FFFFFF;
+    display: flex;
+    cursor: pointer;
+    &:hover {
+        color:#D3D3D3;
     }
 }

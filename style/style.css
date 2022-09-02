@@ -36,6 +36,10 @@
 }
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
 }
 body {
   margin: 0 auto;
@@ -62,6 +66,9 @@ body {
 .site-list__link {
   color: #D3D3D3;
 }
+.site-list__link:hover {
+  color: white;
+}
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -71,16 +78,21 @@ body {
   display: flex;
   align-items: center;
 }
-.main-nav__city {
-  font-size: 20px;
-  line-height: 23px;
-  color: #FFFFFF;
-}
 @media (max-width: 767px) {
   .main-nav__logo {
     width: 50px;
     height: 45px;
   }
+}
+.main-nav__link {
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  display: flex;
+  cursor: pointer;
+}
+.main-nav__link:hover {
+  color: #D3D3D3;
 }
 .header {
   padding: 0 80px;
@@ -147,6 +159,9 @@ body {
 .menu-list__page {
   color: #000;
 }
+.menu-list__page:hover {
+  color: #D3D3D3;
+}
 @media (max-width: 767px) {
   .header-menu .menu-list__link {
     display: none;
@@ -191,6 +206,9 @@ body {
   font-weight: 400;
   color: #000;
   word-break: break-all;
+}
+.link:hover {
+  color: white;
 }
 .visually-hidden {
   position: absolute;
@@ -1178,6 +1196,12 @@ body {
   line-height: 23px;
   color: #FFC300;
 }
+.about-us__link {
+  text-decoration: none;
+}
+.about-us__link:hover {
+  color: #d3d3d3;
+}
 .contacts__list {
   display: flex;
   flex-direction: column;
@@ -1189,6 +1213,12 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #FFC300;
+}
+.contacts__link {
+  text-decoration: none;
+}
+.contacts__link:hover {
+  color: #d3d3d3;
 }
 .buy-button {
   background-color: white;
@@ -1209,6 +1239,10 @@ body {
   padding: 20px;
   word-break: break-all;
   word-wrap: break-word;
+}
+.buy-button:hover {
+  color: white;
+  background-color: #ffc300;
 }
 .buy-button__plus {
   margin-left: auto;

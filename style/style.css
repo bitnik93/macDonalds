@@ -347,7 +347,7 @@ body {
 }
 @media (min-width: 321px) and (max-width: 767px) {
   .main-section__background {
-    right: -18px;
+    right: -13px;
     width: 312px;
     height: 313px;
     position: absolute;
@@ -976,7 +976,7 @@ body {
 }
 @media (min-width: 768px) and (max-width: 1439px) {
   .footer__cookies {
-    max-width: 700px;
+    max-width: 100%;
     margin-bottom: 60px;
   }
 }

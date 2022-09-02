@@ -1623,6 +1623,18 @@ body {
   font-family: 'Insaniburger';
   color: #FFC300;
 }
+.form__minus-button {
+  color: #E9E9E9;
+}
+.form__minus-button:hover {
+  color: #c4c3c3;
+}
+.form__plus-button {
+  color: #FFC300;
+}
+.form__plus-button:hover {
+  color: #f5d97c;
+}
 .submit-buttons-container {
   width: 100%;
   display: flex;

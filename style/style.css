@@ -377,7 +377,7 @@ body {
 }
 @media (min-width: 321px) and (max-width: 767px) {
   .main-section__big-mac {
-    right: -18px;
+    right: -10px;
     width: 312px;
     height: 313px;
     position: absolute;
@@ -399,7 +399,7 @@ body {
 }
 @media (min-width: 768px) and (max-width: 1439px) {
   .main-section__milk-shake {
-    right: -18px;
+    right: -12px;
     width: 383px;
     height: 404px;
   }
